@@ -71,7 +71,7 @@ This version incorporates fine-tuning of a custom language model.
 ## Installation and Dependencies
 
 Install the required libraries:
-```!pip install dspy torch transformers datasets langgraph peft sentence-transformers spacy nltk PyPDF2 sklearn```
+`!pip install dspy torch transformers datasets langgraph peft sentence-transformers spacy nltk PyPDF2 sklearn`
 
 Set up API keys for OpenAI and Hugging Face in your environment variables.
 
@@ -92,7 +92,6 @@ To use a specific version:
 
 ## Future Improvements
 
-- Implement advanced natural language understanding
 - Incorporate multi-modal inputs (voice, images)
 - Develop sophisticated performance metrics
 - Enhance crisis situation handling
