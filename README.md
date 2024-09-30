@@ -31,6 +31,15 @@ This version uses traditional NLP techniques and machine learning models. The bo
 - Multiple "agent" models for different therapy aspects
 - Cosine similarity for information retrieval
 
+### Installation and Dependencies
+
+Install the required libraries:
+```
+!pip install dspy torch transformers datasets langgraph peft sentence-transformers spacy nltk PyPDF2 sklearn
+```
+
+Set up API keys for OpenAI and Hugging Face in your environment variables.
+
 ## Version 2: Self_Help_Bot_v2.py
 
 This version uses the DSPy framework for a more dynamic approach.
@@ -46,6 +55,15 @@ This version uses the DSPy framework for a more dynamic approach.
 - PatientSimulator for realistic responses
 - TherapistEvaluator for performance assessment
 
+### Installation and Dependencies
+
+Install the required libraries:
+```
+!pip install dspy torch transformers datasets 
+```
+
+Set up API keys for OpenAI and Hugging Face in your environment variables.
+
 ## Version 3: Self_Help_Bot_v3.py
 
 This version incorporates fine-tuning of a custom language model.
@@ -60,6 +78,15 @@ This version incorporates fine-tuning of a custom language model.
 - TherapistModelFineTuner for custom model fine-tuning
 - FineTunedTherapistBot using the custom model
 
+### Installation and Dependencies
+
+Install the required libraries:
+```
+!pip install dspy torch transformers datasets 
+```
+
+Set up API keys for OpenAI and Hugging Face in your environment variables.
+
 ## Key Features
 
 - Multiple therapist personas with distinct traits
@@ -67,15 +94,6 @@ This version incorporates fine-tuning of a custom language model.
 - Integration of pre-trained and fine-tuned models
 - Performance evaluation and trait improvement
 - Realistic patient simulation
-
-## Installation and Dependencies
-
-Install the required libraries:
-```
-!pip install dspy torch transformers datasets langgraph peft sentence-transformers spacy nltk PyPDF2 sklearn
-```
-
-Set up API keys for OpenAI and Hugging Face in your environment variables.
 
 ## Usage
 
